@@ -1,300 +1,195 @@
-body {
-    margin: 0;
-    overflow: hidden;
-    background: black;
-    font-family: Arial, sans-serif;
-}
+// Ashvale Online
+// Movement + Woodcutting
 
 
-#game {
+const player = document.getElementById("player");
 
-    width: 100vw;
-    height: 100vh;
+const trees = document.querySelectorAll(".tree");
 
-    background: #4c9b45;
 
-    position: relative;
 
-    overflow: hidden;
-}
+let playerX = window.innerWidth / 2;
 
+let playerY = window.innerHeight - 200;
 
-/* Castle */
 
-.castle {
+let targetX = playerX;
 
-    position: absolute;
+let targetY = playerY;
 
-    top: 40px;
-    left: 50%;
 
-    transform: translateX(-50%);
 
-    width: 500px;
-    height: 250px;
+const speed = 3;
 
-}
 
 
-.castle-wall {
+let woodcuttingXP = 0;
 
-    position: absolute;
+let logs = 0;
 
-    bottom: 0;
 
-    width: 500px;
-    height: 120px;
 
-    background: #777;
+player.style.left = playerX + "px";
 
-    border: 8px solid #444;
+player.style.top = playerY + "px";
 
-}
 
 
-.tower {
 
-    position: absolute;
 
-    width: 90px;
-    height: 180px;
+// Click anywhere
 
-    background: #888;
+document.addEventListener("click", function(event){
 
-    border: 8px solid #444;
 
-    top: -40px;
+    targetX = event.clientX;
 
-}
+    targetY = event.clientY;
 
 
-.left-tower {
+});
 
-    left: 20px;
 
-}
 
 
-.right-tower {
 
-    right: 20px;
+// Tree clicking
 
-}
 
+trees.forEach(tree => {
 
-.castle-door {
 
-    position:absolute;
+    tree.addEventListener("click", function(event){
 
-    bottom:0;
 
-    left:210px;
+        event.stopPropagation();
 
-    font-size:60px;
 
-}
 
+        let rect = tree.getBoundingClientRect();
 
-/* Path */
 
-.path {
+        targetX = rect.left + 40;
 
-    position:absolute;
+        targetY = rect.top + 100;
 
-    background:#b89b6b;
 
-}
 
+        setTimeout(()=>{
 
-.main-path {
 
-    width:100px;
+            chopTree(tree);
 
-    height:100%;
 
-    left:50%;
+        },1000);
 
-    transform:translateX(-50%);
 
-}
 
+    });
 
-/* Trees */
 
-.tree {
 
-    position:absolute;
+});
 
-    width:80px;
 
-    height:100px;
 
-    cursor:pointer;
 
-}
 
+function chopTree(tree){
 
 
-.tree-top {
 
-    width:80px;
+    tree.style.opacity = "0.4";
 
-    height:80px;
 
-    background:#267a32;
+    logs++;
 
-    border-radius:50%;
+    woodcuttingXP += 25;
+
+
+
+    console.log(
+
+        "Logs:",
+
+        logs,
+
+        "XP:",
+
+        woodcuttingXP
+
+    );
+
+
+
+    setTimeout(()=>{
+
+
+        tree.style.opacity = "1";
+
+
+    },5000);
+
+
 
 }
 
 
 
-.tree-trunk {
 
-    width:20px;
 
-    height:40px;
-
-    background:#8b5a2b;
-
-    margin:auto;
-
-}
+function gameLoop(){
 
 
 
-.tree1 {
+    let dx = targetX-playerX;
 
-    left:150px;
-
-    top:300px;
-
-}
+    let dy = targetY-playerY;
 
 
 
-.tree2 {
+    let distance = Math.sqrt(
 
-    right:200px;
+        dx*dx + dy*dy
 
-    top:400px;
-
-}
+    );
 
 
 
-.tree3 {
 
-    left:300px;
-
-    bottom:100px;
-
-}
+    if(distance > 2){
 
 
 
-/* Player */
+        playerX +=
 
-#player {
-
-    position:absolute;
-
-    font-size:50px;
-
-    transform:translate(-50%, -50%);
-
-    transition:none;
-}
+        (dx/distance)*speed;
 
 
-/* Interface */
+
+        playerY +=
+
+        (dy/distance)*speed;
 
 
-#interface {
 
-    position:absolute;
+        player.style.left = playerX+"px";
 
-    bottom:20px;
-
-    left:20px;
-
-}
+        player.style.top = playerY+"px";
 
 
-.status,
-.skill {
 
-    background:#222;
-
-    color:white;
-
-    padding:10px;
-
-    margin:5px;
-
-    border:2px solid #555;
-
-}
-
-/* Collision Areas */
-
-.castle-wall,
-.tower {
-
-    pointer-events: none;
-
-}
-
-/* Player Sprite */
-
-#player {
-
-    position:absolute;
-
-    width:40px;
-    height:70px;
-
-    transform:translate(-50%, -50%);
-
-}
+    }
 
 
-.head {
 
-    width:20px;
-    height:20px;
 
-    background:#f1c27d;
+    requestAnimationFrame(gameLoop);
 
-    border-radius:50%;
 
-    margin:auto;
 
 }
 
 
 
-.body {
-
-    width:25px;
-    height:25px;
-
-    background:#3b6cff;
-
-    margin:auto;
-
-}
-
-
-
-.legs {
-
-    width:20px;
-    height:20px;
-
-    background:#333;
-
-    margin:auto;
-
-}
-
+gameLoop();
