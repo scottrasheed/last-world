@@ -1,1 +1,202 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: Arial, sans-serif;
+}
 
+
+#game {
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #4c9b45;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* Castle */
+
+.castle {
+
+    position: absolute;
+
+    top: 40px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 500px;
+    height: 250px;
+
+}
+
+
+.castle-wall {
+
+    position: absolute;
+
+    bottom: 0;
+
+    width: 500px;
+    height: 120px;
+
+    background: #777;
+
+    border: 8px solid #444;
+
+}
+
+
+.tower {
+
+    position: absolute;
+
+    width: 90px;
+    height: 180px;
+
+    background: #888;
+
+    border: 8px solid #444;
+
+    top: -40px;
+
+}
+
+
+.left-tower {
+
+    left: 20px;
+
+}
+
+
+.right-tower {
+
+    right: 20px;
+
+}
+
+
+.castle-door {
+
+    position:absolute;
+
+    bottom:0;
+
+    left:210px;
+
+    font-size:60px;
+
+}
+
+
+/* Path */
+
+.path {
+
+    position:absolute;
+
+    background:#b89b6b;
+
+}
+
+
+.main-path {
+
+    width:100px;
+
+    height:100%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+
+/* Trees */
+
+.tree {
+
+    position:absolute;
+
+    font-size:70px;
+
+}
+
+
+.tree1 {
+
+    left:150px;
+    top:300px;
+
+}
+
+
+.tree2 {
+
+    right:200px;
+    top:400px;
+
+}
+
+
+.tree3 {
+
+    left:300px;
+    bottom:100px;
+
+}
+
+
+
+/* Player */
+
+#player {
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:200px;
+
+    transform:translateX(-50%);
+
+    font-size:50px;
+
+}
+
+
+/* Interface */
+
+
+#interface {
+
+    position:absolute;
+
+    bottom:20px;
+
+    left:20px;
+
+}
+
+
+.status,
+.skill {
+
+    background:#222;
+
+    color:white;
+
+    padding:10px;
+
+    margin:5px;
+
+    border:2px solid #555;
+
+}
