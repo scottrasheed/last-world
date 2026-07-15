@@ -161,14 +161,11 @@ body {
 
     position:absolute;
 
-    left:50%;
-
-    bottom:200px;
-
-    transform:translateX(-50%);
-
     font-size:50px;
 
+    transform:translate(-50%, -50%);
+
+    transition:none;
 }
 
 
@@ -198,5 +195,14 @@ body {
     margin:5px;
 
     border:2px solid #555;
+
+}
+
+/* Collision Areas */
+
+.castle-wall,
+.tower {
+
+    pointer-events: none;
 
 }
