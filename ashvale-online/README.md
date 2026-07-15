@@ -1,54 +1,91 @@
-# Ashvale Online
+# Last World
 
-A browser-based medieval MMORPG inspired by the classic feeling of old-school online RPGs.
+A browser-based medieval fantasy MMORPG inspired by classic online RPGs while introducing its own world, lore, and gameplay systems.
 
-Ashvale Online is a personal portfolio project built from scratch using HTML, CSS, and JavaScript. The goal is to create an interactive fantasy world featuring exploration, skills, NPCs, inventory systems, and classic RPG mechanics.
+**Last World** is a long-term personal portfolio project built from scratch using **HTML, CSS, and JavaScript**. The goal is to create a living online world where players explore ancient ruins, discover powerful Relics, master unique combat abilities, and uncover the mystery behind **The Collapse**.
+
+---
+
+## 🌍 Project Overview
+
+Long ago, humanity lived across countless worlds sustained by powerful ancient Relics. Then came **The Collapse**.
+
+The surviving civilizations fled to the only world believed to remain.
+
+It became known simply as **Last World**.
+
+Players will explore kingdoms, forests, islands, dungeons, and forgotten civilizations while searching for legendary Relics that grant extraordinary powers and reveal the truth behind the world's forgotten history.
+
+---
 
 ## 🎮 Current Features
 
-- Medieval fantasy world environment
-- Castle courtyard area
-- Player movement system
-- Click-to-move controls
-- Basic player interface
-- Woodcutting system (in development)
+* Medieval fantasy environment
+* Player movement system
+* Click-to-move controls
+* Interactive game interface
+* Core world-building in progress
+
+---
 
 ## 🚧 Planned Features
 
-- Tree chopping and resource gathering
-- Inventory system
-- Equipment system
-- NPC dialogue
-- Combat system
-- Quest system
-- Multiple areas to explore
-- Saving player progress
+* Open-world exploration
+* Ancient Relic system
+* Elemental abilities
+* Unique combat techniques
+* Resource gathering and crafting
+* Equipment and inventory system
+* NPCs with dialogue
+* Quests and world events
+* Guilds and factions
+* Boss encounters
+* Multiplayer features
+* Player progression and saving
+
+---
 
 ## 🛠️ Built With
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
-## 📚 What I Learned
+---
 
-While building Ashvale Online, I am practicing:
+## 📚 What I'm Learning
 
-- JavaScript game loops
-- Player movement systems
-- DOM manipulation
-- Event handling
-- Managing game state
-- Building interactive web applications
+This project is helping me practice:
 
-## ▶️ How To Run
+* JavaScript game development
+* DOM manipulation
+* Event handling
+* Game loops
+* State management
+* Object-oriented programming
+* Interactive UI design
+* Long-term software architecture
+
+---
+
+## ▶️ Running the Project
 
 1. Clone this repository.
-2. Open `index.html` in your browser.
-3. Start exploring Ashvale Online.
+2. Open `index.html` in your web browser.
+3. Begin exploring **Last World**.
+
+---
+
+## 📖 Lore
+
+The complete story and world-building documentation can be found in:
+
+`docs/LORE.md`
+
+---
 
 ## 👨‍💻 Author
 
-Scott
+**Scott**
 
-Built as part of my journey learning web development and creating portfolio projects.
+Built as part of my software engineering journey while learning web development and game programming.
