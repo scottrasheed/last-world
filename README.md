@@ -1,24 +1,36 @@
 # 🌎 Last World
 
-A browser-based medieval fantasy MMORPG inspired by classic online RPGs, built from scratch with HTML, CSS, and JavaScript.
+A browser-based medieval fantasy MMORPG-inspired prototype built from scratch with HTML, CSS, and JavaScript.
 
 Last World is a long-term personal portfolio project focused on creating a living fantasy world where players explore forgotten civilizations, discover ancient powers, master unique combat styles, and uncover the mystery behind **The Collapse**.
+
+The current project is a web-based prototype exploring the foundations of a future open-world MMORPG concept.
 
 ---
 
 # 🌍 Project Overview
 
-Long ago, humanity flourished across countless worlds protected by powerful ancient **Relics**.
+Long ago, powerful civilizations existed across many lands.
 
-Then came **The Collapse**.
+These civilizations discovered ancient powers, created legendary artifacts, and built kingdoms that shaped history.
 
-Civilizations fell. Worlds disappeared. Survivors fled to the final known world capable of sustaining life.
+Then came:
 
-A world that became known as:
+# The Collapse
+
+Civilizations fell.
+
+Ancient knowledge was lost.
+
+Powerful Relics disappeared.
+
+Survivors were forced to rebuild on the final known world capable of supporting life.
+
+A world known as:
 
 # Last World
 
-Players will explore kingdoms, forests, islands, ruins, and forgotten lands while discovering lost Relics, awakening elemental powers, and uncovering the truth behind the events that nearly destroyed civilization.
+Players explore kingdoms, oceans, ruins, forests, and forgotten lands while discovering lost history, powerful abilities, and the secrets behind the event that changed the world forever.
 
 ---
 
@@ -28,156 +40,212 @@ Players will explore kingdoms, forests, islands, ruins, and forgotten lands whil
 ✅ Player movement system  
 ✅ Click-to-move controls  
 ✅ Interactive game interface  
-✅ Initial world-building systems  
+✅ Early world-building systems  
 🚧 Core gameplay systems currently in development
 
 ---
 
-# ✨ Core Gameplay Systems
+# ✨ Core Game Concepts
 
-## 🌪️ Element System
+Last World is built around one major philosophy:
 
-Players will discover and master powerful elemental abilities.
+## Power Source ≠ Combat Role
 
-Each element has its own identity and playstyle.
+Players are not locked into traditional classes.
 
-### 🌪️ Air Element
-**Single-target destruction**
+The power they discover does not determine their entire identity.
 
-- Highest single-target damage
-- Powerful consistent attacks
-- Highest damage potential
+Players create their own path through:
 
-Playstyle:
-> Assassin / Duelist
-
----
-
-### 🔥 Fire Element
-**Burning destruction**
-
-- Damage-over-time effects
-- Burning stacks
-- Area-of-effect attacks
-- Defensive flame abilities
-
-Playstyle:
-> Mage / Destroyer
+- Weapons
+- Skills
+- Equipment
+- Combat choices
+- Progression decisions
 
 ---
 
-### 🌎 Earth Element
-**Strength and endurance**
+# ⚔️ Power Systems
 
-- High defensive capabilities
-- Armor piercing
-- Enemy defense reduction
-- Frontline combat
+## 🌟 Elementalists (Runes)
 
-Playstyle:
-> Tank / Juggernaut
+Magic users who channel elemental energy through ancient Runes.
 
----
+Possible elements:
 
-### 💧 Water Element
-**Sustain and survival**
-
-- High damage potential
-- Healing abilities
-- Regeneration
-- Overhealing mechanics
-
-Playstyle:
-> Battle Healer
+- Fire
+- Water
+- Earth
+- Air
+- Lightning
+- Ice
+- Nature
+- Light
+- Shadow
 
 ---
 
-# 👹 Enemy Difficulty System
+## 🔥 Heavenly Restricted
 
-Enemies in Last World follow a progression system:
+Warriors who sacrifice something important to gain extraordinary physical abilities.
 
-## ⭐ Normal Enemies
+Possible sacrifices:
 
-Basic creatures and enemies found throughout the world.
+- Magic
+- Lifespan
+- Senses
+- Memories
 
-Purpose:
-- Learning combat
-- Early progression
-- Basic rewards
+They specialize in:
 
----
-
-## ⭐⭐ Advanced Enemies
-
-Stronger enemies with increased abilities and better rewards.
-
-Purpose:
-- Increased challenge
-- Better loot
+- Strength
+- Speed
+- Physical mastery
 
 ---
 
-## ⭐⭐⭐ Elite Enemies
+## 🌀 Cursed Arts
 
-Powerful enemies with unique abilities and stronger mechanics.
+Rare supernatural techniques with unique abilities.
 
-Purpose:
-- Rare encounters
-- High-value rewards
+Examples:
+
+- Gravity
+- Shadows
+- Blood techniques
+- Chains
+- Space manipulation
 
 ---
 
-## ⭐⭐⭐⭐ World Bosses
+## ⚔️ Relic Warriors
 
-Powerful repeatable encounters found throughout the world.
+Warriors who discover and master ancient Relics left behind from lost civilizations.
 
-Features:
+Relics can include:
+
+- Swords
+- Spears
+- Shields
+- Bows
+- Crossbows
+- Armor
+- Legendary weapons
+
+Relic Warriors can become:
+
+- Knights
+- Paladins
+- Tanks
+- Duelists
+- Assassins
+- Archers
+- Guardians
+
+---
+
+# 🐉 World & Creatures
+
+The world of Last World includes:
+
+- Kingdoms
+- Oceans
+- Islands
+- Ancient ruins
+- Dungeons
+- Lost civilizations
+- Dragon territories
+
+## Zodiac Beasts
+
+Ancient legendary creatures connected to:
+
+- The Collapse
+- Relics
+- Elemental forces
+- Forgotten history
+
+Examples:
+
+- Dragons
+- Phoenix
+- Leviathans
+- Serpents
+- Wolves
+
+---
+
+# 👹 Enemy System
+
+Enemies are designed to have purpose within the world.
+
+Enemy types include:
+
+⭐ Normal Enemies
+
+Basic creatures and opponents.
+
+⭐⭐ Advanced Enemies
+
+Stronger enemies with improved abilities and rewards.
+
+⭐⭐⭐ Elite Enemies
+
+Powerful enemies with unique mechanics.
+
+⭐⭐⭐⭐ World Bosses
+
+Large encounters with:
+
 - Unique mechanics
-- Rare drops
-- Challenging battles
+- Rare rewards
+- Lore connections
 
----
-
-## ⭐⭐⭐⭐⭐ Legendary Raid Bosses
+⭐⭐⭐⭐⭐ Legendary Raid Bosses
 
 The greatest threats in Last World.
 
 Features:
-- Multi-phase encounters
+
+- Multiple phases
 - Legendary rewards
-- Massive battles
+- Major story importance
 
 ---
 
 # 🚧 Planned Features
 
 ## World
+
 - Open-world exploration
 - Kingdoms and civilizations
 - Ancient ruins
+- Oceans and islands
 - Dungeons
 - World events
 
 ## Combat
-- Elemental abilities
-- Unique combat techniques
-- Equipment progression
+
+- Rune abilities
+- Relic weapons
+- Unique combat styles
 - Enemy AI
 - Boss mechanics
 
 ## Progression
+
 - Skills
-- Relics
+- Equipment
 - Crafting
 - Resource gathering
 - Inventory systems
-- Player saving
 
 ## Online Features
+
 - Guilds
 - Factions
 - Multiplayer systems
-- Player interactions
+- Player interaction
 
 ---
 
@@ -217,23 +285,20 @@ This project helps me practice:
 
 Additional development documents:
 
-- `Game-Design-Document.md`  
-  → Gameplay systems, mechanics, and future plans
+📄 `GAME-DESIGN.md`  
+→ Official gameplay systems, world design, power systems, and future plans.
 
-- `NOTES.md`  
-  → Development ideas and brainstorming
-
-- `docs/LORE.md`  
-  → Story and world-building documentation
+📄 `NOTES.md`  
+→ Brainstorming, ideas, questions, and future concepts.
 
 ---
 
 # 👨‍💻 Author
 
-**Scott**
+Scott
 
 Built as part of my software engineering journey while learning web development and game programming.
 
----
+⭐ This project is actively evolving as new systems, mechanics, and features are developed.
 
 ⭐ This project is actively evolving as new systems, mechanics, and features are developed.
