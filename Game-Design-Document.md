@@ -1,12 +1,19 @@
-# Last World - Game Design Document
+# Last World
+## Game Design Document
 
-## 1. Game Overview
+---
 
-Last World is a medieval fantasy MMORPG-inspired game built from scratch using HTML, CSS, and JavaScript.
+# 1. Game Overview
 
-Players explore a mysterious world filled with ancient civilizations, powerful creatures, forgotten kingdoms, and hidden Relics left behind from a lost age.
+Last World is a medieval fantasy open-world MMORPG-inspired game currently being explored through HTML, CSS, and JavaScript prototypes.
+
+Players explore a mysterious world filled with ancient civilizations, forgotten kingdoms, powerful creatures, dangerous seas, and legendary powers left behind from a lost age.
 
 The goal of Last World is to create a living fantasy world where players discover their own path through exploration, combat, progression, and choice.
+
+Players are not defined by a single class.
+
+Instead, they discover their source of power and create their own identity.
 
 ---
 
@@ -23,7 +30,7 @@ Last World is built around these principles:
 
 Every mechanic should have a reason to exist within the world.
 
-Every creature, location, power, and item should have a story.
+Every creature, location, power, weapon, and item should have a story.
 
 Players should not feel like they are simply unlocking numbers.
 
@@ -31,13 +38,60 @@ They should feel like they are becoming part of the history of Last World.
 
 ---
 
-# 3. World Overview
+# 3. Design Pillars
 
-Long ago, powerful civilizations existed across many worlds.
+## Player Freedom
 
-These civilizations discovered ancient Relics containing extraordinary powers.
+Players are not locked into traditional classes.
 
-These Relics shaped kingdoms, protected civilizations, and influenced the course of history.
+The core philosophy of Last World is:
+
+## Power Source ≠ Combat Role
+
+A player's power does not determine their entire playstyle.
+
+Players decide their identity through:
+
+- Weapons
+- Armor
+- Skills
+- Equipment
+- Combat choices
+- Progression decisions
+
+---
+
+## Identity
+
+Every player should feel unique.
+
+Two players can share the same power source and still have completely different journeys.
+
+Example:
+
+Two Fire users:
+
+Player One:
+- Fire Battle Mage
+- Ranged attacks
+- Area damage
+
+Player Two:
+- Fire Knight
+- Sword combat
+- Defensive flames
+
+Same power.
+
+Different legend.
+
+---
+
+# 4. World Overview
+
+Long ago, powerful civilizations existed across many lands.
+
+These civilizations discovered ancient powers, created legendary weapons, and built kingdoms that shaped history.
 
 However, an unknown event changed everything.
 
@@ -45,11 +99,13 @@ This event became known as:
 
 # The Collapse
 
-The worlds were destroyed.
-
 Civilizations fell.
 
-The survivors escaped to the final known world.
+Ancient knowledge was lost.
+
+Powerful artifacts disappeared.
+
+Survivors were forced to rebuild on the final known world.
 
 This world became known as:
 
@@ -59,7 +115,7 @@ Players explore this world while uncovering forgotten history and discovering th
 
 ---
 
-# 4. Medieval Fantasy Setting
+# 5. Medieval Fantasy Setting
 
 Last World is a medieval fantasy world containing:
 
@@ -68,10 +124,12 @@ Last World is a medieval fantasy world containing:
 - Villages
 - Forests
 - Mountains
+- Oceans
 - Islands
 - Ruins
 - Dungeons
 - Ancient civilizations
+- Lost temples
 
 The world includes:
 
@@ -85,65 +143,200 @@ The world should feel alive and filled with history.
 
 ---
 
-# 5. Relic Awakening System
+# 6. Power Systems
 
-Relic Awakening is one of the core progression systems in Last World.
-
-Players do not begin with elemental powers.
-
-Instead, players discover their first power through exploration.
-
-Players can unlock Relic Awakening by:
-
-- Exploring the world
-- Discovering ancient ruins
-- Finding hidden locations
-- Completing quests
-- Encountering forgotten civilizations
-
-When a Relic accepts a player, it binds to their character and awakens their first elemental power.
-
-The Relic becomes part of the player's identity.
-
-However, the Relic does not decide the player's entire future.
-
-A player's choices define their journey.
-
-Players have freedom through:
-
-- Weapons
-- Abilities
-- Equipment
-- Combat style
-- Progression choices
+Last World contains four major power paths.
 
 ---
 
-# 6. Relic Combination System
+# Elementalists (Rune Users)
 
-Relics can be combined.
+Elementalists are magic users who channel elemental energy through ancient Runes.
 
-After discovering and mastering Relics, players can combine their powers to create new abilities and unique paths.
+Runes allow users to manipulate the natural forces of the world.
 
-Relic combinations can create:
+Possible elements include:
 
-- Hybrid elemental abilities
-- New combat styles
-- Unique techniques
-- Rare power combinations
+- Fire
+- Water
+- Earth
+- Air
+- Lightning
+- Ice
+- Nature
+- Light
+- Shadow
 
-Relic Combination encourages exploration, experimentation, and player freedom.
+Elementalists can become:
+
+- Mages
+- Battle Mages
+- Healers
+- Elemental Warriors
+- Summoners
+- Support characters
+
+An element does not decide a player's role.
+
+---
+
+# Heavenly Restricted
+
+Heavenly Restricted warriors gain extraordinary physical abilities through sacrifice.
+
+They give up something important in exchange for unnatural strength.
+
+Possible sacrifices:
+
+- Ability to use magic
+- Connection to certain powers
+- Lifespan
+- Senses
+- Memories
+
+They gain:
+
+- Superhuman strength
+- Speed
+- Reflexes
+- Physical mastery
+
+Possible roles:
+
+- Brawler
+- Martial Fighter
+- Monster Hunter
+- Tank
+- Damage Dealer
+
+---
+
+# Cursed Arts
+
+Cursed Arts are rare supernatural techniques that do not follow normal elemental rules.
+
+They are unique abilities discovered through:
+
+- Bloodlines
+- Forbidden knowledge
+- Ancient schools
+- Lost techniques
+
+Examples:
+
+- Gravity manipulation
+- Shadow abilities
+- Blood techniques
+- Chains
+- Space manipulation
+- Sound abilities
+
+Each Cursed Art should feel unique.
+
+---
+
+# Relic Warriors
+
+Relic Warriors are fighters who discover and master ancient weapons and artifacts left behind from previous civilizations.
+
+Relics are not traditional equipment.
+
+They are legendary objects connected to history, power, and the mysteries of The Collapse.
+
+Relics can include:
+
+- Swords
+- Spears
+- Axes
+- Shields
+- Bows
+- Crossbows
+- Armor
+- Legendary weapons
+
+Relics become bound to their chosen user.
+
+However:
+
+A Relic does not decide a player's role.
+
+The player decides their path.
+
+---
+
+## Relic Warrior Paths
+
+### Relic Knight
+
+A defensive warrior using:
+
+- Shields
+- Heavy armor
+- Protection abilities
+
+Role:
+
+Tank / Guardian
+
+---
+
+### Relic Duelist
+
+A skilled melee fighter using:
+
+- Swords
+- Spears
+- Twin weapons
+
+Role:
+
+Damage / Mobility
+
+---
+
+### Relic Assassin
+
+A fast fighter using:
+
+- Daggers
+- Short blades
+- Speed-based abilities
+
+Role:
+
+Burst Damage
+
+---
+
+### Relic Archer
+
+A ranged fighter using:
+
+- Legendary bows
+- Crossbows
+- Special ammunition
+
+Role:
+
+Ranged Damage
+
+---
+
+### Relic Berserker
+
+A powerful fighter using:
+
+- Greatswords
+- Axes
+- Heavy weapons
+
+Role:
+
+High Damage
 
 ---
 
 # 7. Element System
-
-The four foundation elements of Last World are:
-
-- Air
-- Fire
-- Earth
-- Water
 
 Every element is powerful and has its own identity.
 
@@ -151,103 +344,97 @@ There are no weak elements.
 
 ---
 
-# Air Element 🌪️
-
-Role:
-
-Single-target damage
-
-Identity:
-
-A powerful offensive element focused on overwhelming individual enemies.
-
-Strengths:
-
-- Highest single-target damage
-- Consistent hard-hitting attacks
-- High damage potential
-
-Playstyle:
-
-Assassin / Duelist
-
----
-
 # Fire Element 🔥
 
-Role:
-
-Burning destruction
-
 Identity:
 
-A powerful element focused on damage over time and battlefield control.
+A destructive element focused on damage and battlefield control.
 
 Strengths:
 
-- Burning stacks
+- Burning effects
 - Area damage
-- Destructive abilities
-- Defensive flame abilities
+- Powerful attacks
+- Defensive flames
 
-Playstyle:
+Possible styles:
 
-Mage / Destroyer
-
----
-
-# Earth Element 🌎
-
-Role:
-
-Defense and armor breaking
-
-Identity:
-
-A powerful element focused on endurance and weakening enemies.
-
-Strengths:
-
-- High defense
-- Tank capabilities
-- Armor piercing
-- Defense reduction
-
-Playstyle:
-
-Tank / Juggernaut
+- Fire Mage
+- Fire Battle Mage
+- Fire Knight
 
 ---
 
 # Water Element 💧
 
-Role:
-
-Damage and sustain
-
 Identity:
 
-A flexible element focused on survival and adaptability.
+A flexible element focused on adaptation and survival.
 
 Strengths:
 
-- High damage
-- Healing abilities
+- Healing
 - Regeneration
-- Overhealing mechanics
+- Damage
+- Support abilities
 
-Playstyle:
+Possible styles:
 
-Battle Healer
+- Healer
+- Battle Mage
+- Support Fighter
+
+---
+
+# Earth Element 🌎
+
+Identity:
+
+An element focused on shaping the battlefield.
+
+Strengths:
+
+- Terrain control
+- Crystal abilities
+- Defensive techniques
+- Powerful attacks
+
+Possible styles:
+
+- Earth Mage
+- Controller
+- Battle Mage
+
+---
+
+# Air Element 🌪️
+
+Identity:
+
+A fast elemental force focused on movement and precision.
+
+Strengths:
+
+- Mobility
+- Wind attacks
+- Evasion
+- Control abilities
+
+Possible styles:
+
+- Air Mage
+- Support
+- Damage Dealer
 
 ---
 
 # 8. Character Progression
 
-Players create their own identity through choices.
+Players create their identity through choices.
 
 Progression may include:
 
+- Power mastery
 - Relic mastery
 - Element development
 - Weapons
@@ -255,17 +442,7 @@ Progression may include:
 - Skills
 - Combat decisions
 
-Two players with the same element can become completely different.
-
-Example:
-
-A Fire user may become:
-
-- A Fire Knight using defensive flames with a sword
-
-or:
-
-- A Fire Mage using powerful ranged attacks
+Players should always feel like they are creating their own legend.
 
 ---
 
@@ -275,72 +452,39 @@ Combat focuses on:
 
 - Skill usage
 - Player decisions
-- Element abilities
 - Equipment choices
 - Unique builds
+- Power combinations
 
 Combat systems may include:
 
 - Damage types
 - Critical mechanics
 - Status effects
-- Boss mechanics
 - Element interactions
+- Boss mechanics
 
 ---
 
-# 10. Enemy System
+# 10. Combat Roles
 
-Enemies should have purpose within the world.
+Possible combat roles include:
 
-Every enemy should have:
+- Paladin
+- Knight
+- Tank
+- Assassin
+- Brawler
+- Healer
+- Battle Mage
+- Shaman
+- Archer
+- Crossbow Hunter
+- Beastmaster
+- Shadow Sorcerer
+- Aura Fighter
 
-- A reason for existing
-- A location
-- A history
-- Unique traits
-
-Enemy difficulty system:
-
-## ⭐ Normal Enemies
-
-Basic creatures and opponents.
-
----
-
-## ⭐⭐ Advanced Enemies
-
-Stronger enemies with improved abilities and rewards.
-
----
-
-## ⭐⭐⭐ Elite Enemies
-
-Powerful enemies with unique abilities.
-
----
-
-## ⭐⭐⭐⭐ World Bosses
-
-Powerful repeatable encounters.
-
-Features:
-
-- Unique mechanics
-- Rare rewards
-- Challenging fights
-
----
-
-## ⭐⭐⭐⭐⭐ Legendary Raid Bosses
-
-The greatest threats in Last World.
-
-Features:
-
-- Multiple phases
-- Legendary rewards
-- Major lore importance
+Roles are created through player choices, not locked classes.
 
 ---
 
@@ -351,11 +495,9 @@ Zodiac Beasts are ancient legendary creatures found throughout Last World.
 They are connected to:
 
 - Ancient history
-- Elemental forces
 - Relics
+- Elemental forces
 - The Collapse
-
-Zodiac Beasts are not ordinary monsters.
 
 They may appear as:
 
@@ -364,37 +506,93 @@ They may appear as:
 - World Boss encounters
 - Sources of powerful materials
 
+Examples:
+
+- Dragons
+- Phoenix
+- Wolves
+- Serpents
+- Leviathans
+
 ---
 
-# 12. World Design
+# 12. Enemy System
+
+Enemies should have purpose within the world.
+
+Every enemy should have:
+
+- A reason for existing
+- A location
+- A history
+- Unique traits
+
+Enemy difficulty:
+
+## ⭐ Normal Enemies
+
+Basic creatures and opponents.
+
+## ⭐⭐ Advanced Enemies
+
+Stronger enemies with improved abilities.
+
+## ⭐⭐⭐ Elite Enemies
+
+Powerful enemies with unique mechanics.
+
+## ⭐⭐⭐⭐ World Bosses
+
+Powerful repeatable encounters.
+
+Features:
+
+- Unique mechanics
+- Rare rewards
+- Lore connections
+
+## ⭐⭐⭐⭐⭐ Legendary Raid Bosses
+
+The greatest threats in Last World.
+
+Features:
+
+- Multiple phases
+- Legendary rewards
+- Major story importance
+
+---
+
+# 13. World Design
 
 The world should encourage exploration.
 
-Possible environments include:
+Possible environments:
 
 - Kingdoms
 - Forests
 - Mountains
+- Oceans
 - Islands
 - Ruins
 - Dungeons
 - Ancient temples
 - Dragon territories
 
-Locations should have:
+Locations should contain:
 
 - History
 - Purpose
 - Lore
-- Secrets to discover
+- Secrets
 
 ---
 
-# 13. NPC System
+# 14. NPC System
 
-NPCs should feel like real inhabitants of Last World.
+NPCs should feel like real inhabitants.
 
-NPCs may include:
+Possible NPCs:
 
 - Kings
 - Knights
@@ -403,7 +601,7 @@ NPCs may include:
 - Scholars
 - Mages
 - Adventurers
-- Relic researchers
+- Relic Researchers
 
 Important NPCs should have:
 
@@ -414,7 +612,7 @@ Important NPCs should have:
 
 ---
 
-# 14. Raids
+# 15. Raids
 
 Raids are large-scale challenges.
 
@@ -424,28 +622,24 @@ Raid content may include:
 - Powerful enemies
 - Group challenges
 - Rare rewards
-- Important lore discoveries
+- Important discoveries
 
 ---
 
-# 15. Player Freedom Philosophy
-
-Relic Awakening creates your beginning.
-
-Your choices create your legend.
+# 16. Player Freedom Philosophy
 
 Players should be able to:
 
 - Build unique characters
-- Experiment with combinations
-- Choose their combat style
+- Experiment with powers
+- Choose combat styles
 - Create different playstyles
 
 No player should feel forced into one path.
 
 ---
 
-# 16. Design Philosophy
+# 17. Design Philosophy
 
 Last World follows these rules:
 
@@ -453,5 +647,9 @@ Last World follows these rules:
 - Every creature should have a purpose
 - Every power should have an origin
 - Every player should have a unique journey
-- Freedom should be a core feature so players can choose their own elements
+- Freedom should be the foundation
 - The world should feel alive
+
+The goal:
+
+Create a world where players remember their adventures, discoveries, friendships, and identity.
